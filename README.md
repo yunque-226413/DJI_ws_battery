@@ -1,16 +1,21 @@
-在 DjiTest_FcSubscriptionStartService() 函数中添加电池电量推送1hz
+这段代码以1Hz频率订阅电池电量信息
+1. 电池订阅配置
+在 DjiTest_FcSubscriptionStartService() 函数中，可以看到明确的1Hz电池订阅：
+c
 // 以1Hz频率订阅电池单体信息（电池1）
 djiStat = DjiFcSubscription_SubscribeTopic(DJI_FC_SUBSCRIPTION_TOPIC_BATTERY_SINGLE_INFO_INDEX1,
                                            DJI_DATA_SUBSCRIPTION_TOPIC_1_HZ, NULL);
-
 // 以1Hz频率订阅电池单体信息（电池2）  
 djiStat = DjiFcSubscription_SubscribeTopic(DJI_FC_SUBSCRIPTION_TOPIC_BATTERY_SINGLE_INFO_INDEX2,
                                            DJI_DATA_SUBSCRIPTION_TOPIC_1_HZ, NULL);
-
 // 以1Hz频率订阅整体电池信息
 djiStat = DjiFcSubscription_SubscribeTopic(DJI_FC_SUBSCRIPTION_TOPIC_BATTERY_INFO,
                                            DJI_DATA_SUBSCRIPTION_TOPIC_1_HZ, NULL);
+2. 电池数据获取和显示
 在 UserFcSubscription_Task 任务中，每秒获取并显示电池信息：
+
+2.1 电池1信息获取
+c
 djiStat = DjiFcSubscription_GetLatestValueOfTopic(DJI_FC_SUBSCRIPTION_TOPIC_BATTERY_SINGLE_INFO_INDEX1,
                                                   (uint8_t *) &singleBatteryInfo,
                                                   sizeof(T_DjiFcSubscriptionSingleBatteryInfo),
@@ -23,13 +28,38 @@ if (djiStat != DJI_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
                   singleBatteryInfo.currentVoltage / 1000,
                   (dji_f32_t) singleBatteryInfo.batteryTemperature / 10);
 }
-USER_LOG_INFO - 主要推送函数：
+2.2 电池2信息获取
+c
+djiStat = DjiFcSubscription_GetLatestValueOfTopic(DJI_FC_SUBSCRIPTION_TOPIC_BATTERY_SINGLE_INFO_INDEX2,
+                                                  (uint8_t *) &singleBatteryInfo,
+                                                  sizeof(T_DjiFcSubscriptionSingleBatteryInfo),
+                                                  &timestamp);
+if (djiStat != DJI_ERROR_SYSTEM_MODULE_CODE_SUCCESS) {
+    USER_LOG_DEBUG("get value of topic battery single info index2 error or unavailable.");
+} else if (s_userFcSubscriptionDataShow == true) {
+    USER_LOG_INFO("battery2: capacity %ld%% voltage %ldV temperature %.2f°C.",
+                  singleBatteryInfo
+
+这段代码通过多种日志输出机制将电池消息推送到终端。
+
+1. 主要的日志输出函数
+1.1 USER_LOG_INFO - 主要推送函数
+c
 USER_LOG_INFO("battery1: capacity %ld%% voltage %ldV temperature %.2f°C.",
               singleBatteryInfo.batteryCapacityPercent,
               singleBatteryInfo.currentVoltage / 1000,
               (dji_f32_t) singleBatteryInfo.batteryTemperature / 10);
+1.2 USER_LOG_ERROR - 错误信息推送
+c
+USER_LOG_ERROR("get value of topic battery single info index1 error.");
+1.3 USER_LOG_DEBUG - 调试信息推送
+c
+USER_LOG_DEBUG("get value of topic battery single info index2 error or unavailable.");
+2. 日志系统的底层实现
 这些 USER_LOG_xxx 宏最终调用到在 main.c 中注册的日志处理程序：
-控制台输出处理程序：
+
+2.1 控制台输出处理程序
+c
 static T_DjiReturnCode DjiUser_PrintConsole(const uint8_t *data, uint16_t dataLen)
 {
     USER_UTIL_UNUSED(dataLen);
@@ -132,3 +162,4 @@ DJI日志系统会自动为每条消息添加：
 颜色支持（如果终端支持）
 
 总结： 电池数据通过 USER_LOG_INFO 函数调用，经过DJI日志系统处理，最终通过 printf 输出到终端，同时也会保存到日志文件中，实现每秒一次的实时推送显示。
+
