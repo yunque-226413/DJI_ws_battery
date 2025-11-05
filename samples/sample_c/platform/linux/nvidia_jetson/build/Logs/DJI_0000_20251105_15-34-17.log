@@ -1,0 +1,1146 @@
+[32m   0.003	            core	[Info]	               dji_core.c:110  Payload SDK Version : V3.13.0-beta.0-build.2270 Aug 28 2025 16:36:46[0m
+[37m   0.004	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:3[0m
+[37m   0.004	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0503->0x0801 0x0000[0m
+[37m   0.004	           utils	[Debug]	          dji_root_task.c:131  work execution time:[0m
+[37m   0.004	           utils	[Debug]	          dji_root_task.c:132  name	                execution time (ms)	  max execution time (ms)[0m
+[37m   0.004	           utils	[Debug]	          dji_root_task.c:134  recorderWork                    	0       	0       [0m
+[37m   0.004	           utils	[Debug]	          dji_root_task.c:134  flowControllerTask              	0       	0       [0m
+[37m   0.104	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:3[0m
+[37m   0.113	         adapter	[Debug]	     dji_access_adapter.c:1673 Try (p, s, r, c) = (2, 0x0a06, 0x0300, 0x03fd)[0m
+[37m   0.113	          linker	[Debug]	           dji_protocol.c:83   set V1 Wrap V3 Flag false[0m
+[37m   0.119	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   0.119	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   0.139	          linker	[Debug]	        dji_protocol_v1.c:189  <0x01>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   0.159	          linker	[Debug]	        dji_protocol_v1.c:189  <0x02>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   0.180	          linker	[Debug]	        dji_protocol_v1.c:189  <0x03>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   0.200	          linker	[Debug]	        dji_protocol_v1.c:189  <0x04>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   0.222	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   0.222	         adapter	[Debug]	     dji_access_adapter.c:793  Try (p, s, r, c) = (2, 0x0507, 0x0503, 0x03fd)[0m
+[37m   0.222	          linker	[Debug]	           dji_protocol.c:83   set V1 Wrap V3 Flag false[0m
+[37m   0.228	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   0.228	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.248	          linker	[Debug]	        dji_protocol_v1.c:189  <0x01>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.268	          linker	[Debug]	        dji_protocol_v1.c:189  <0x02>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.288	          linker	[Debug]	        dji_protocol_v1.c:189  <0x03>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.308	          linker	[Debug]	        dji_protocol_v1.c:189  <0x04>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.331	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   0.340	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   0.340	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.360	          linker	[Debug]	        dji_protocol_v1.c:189  <0x01>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.380	          linker	[Debug]	        dji_protocol_v1.c:189  <0x02>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.400	          linker	[Debug]	        dji_protocol_v1.c:189  <0x03>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.420	          linker	[Debug]	        dji_protocol_v1.c:189  <0x04>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.443	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   0.452	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   0.452	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.472	          linker	[Debug]	        dji_protocol_v1.c:189  <0x01>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.492	          linker	[Debug]	        dji_protocol_v1.c:189  <0x02>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.512	          linker	[Debug]	        dji_protocol_v1.c:189  <0x03>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.533	          linker	[Debug]	        dji_protocol_v1.c:189  <0x04>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.555	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   0.564	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   0.564	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.584	          linker	[Debug]	        dji_protocol_v1.c:189  <0x01>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.604	          linker	[Debug]	        dji_protocol_v1.c:189  <0x02>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.624	          linker	[Debug]	        dji_protocol_v1.c:189  <0x03>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.645	          linker	[Debug]	        dji_protocol_v1.c:189  <0x04>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.667	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   0.676	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   0.676	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.696	          linker	[Debug]	        dji_protocol_v1.c:189  <0x01>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.716	          linker	[Debug]	        dji_protocol_v1.c:189  <0x02>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.736	          linker	[Debug]	        dji_protocol_v1.c:189  <0x03>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.757	          linker	[Debug]	        dji_protocol_v1.c:189  <0x04>V1-Send: 0x0507->0x0503 0x03FD[0m
+[37m   0.779	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   0.779	         adapter	[Debug]	     dji_access_adapter.c:862  Try (p, s, r, c) = (2, 0x0a06, 0x0300, 0x03fd)[0m
+[37m   0.779	          linker	[Debug]	           dji_protocol.c:83   set V1 Wrap V3 Flag false[0m
+[37m   0.788	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   0.788	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   0.808	          linker	[Debug]	        dji_protocol_v1.c:189  <0x01>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   0.828	          linker	[Debug]	        dji_protocol_v1.c:189  <0x02>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   0.848	          linker	[Debug]	        dji_protocol_v1.c:189  <0x03>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   0.868	          linker	[Debug]	        dji_protocol_v1.c:189  <0x04>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   0.891	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   0.900	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   0.900	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   0.920	          linker	[Debug]	        dji_protocol_v1.c:189  <0x01>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   0.940	          linker	[Debug]	        dji_protocol_v1.c:189  <0x02>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   0.960	          linker	[Debug]	        dji_protocol_v1.c:189  <0x03>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   0.980	          linker	[Debug]	        dji_protocol_v1.c:189  <0x04>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   1.002	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   1.011	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   1.011	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   1.031	          linker	[Debug]	        dji_protocol_v1.c:189  <0x01>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   1.051	          linker	[Debug]	        dji_protocol_v1.c:189  <0x02>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   1.068	           utils	[Debug]	          dji_root_task.c:131  work execution time:[0m
+[37m   1.068	           utils	[Debug]	          dji_root_task.c:132  name	                execution time (ms)	  max execution time (ms)[0m
+[37m   1.068	           utils	[Debug]	          dji_root_task.c:134  recorderWork                    	0       	0       [0m
+[37m   1.068	           utils	[Debug]	          dji_root_task.c:134  flowControllerTask              	1       	1       [0m
+[37m   1.071	          linker	[Debug]	        dji_protocol_v1.c:189  <0x03>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   1.091	          linker	[Debug]	        dji_protocol_v1.c:189  <0x04>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   1.114	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   1.123	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   1.123	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   1.143	          linker	[Debug]	        dji_protocol_v1.c:189  <0x01>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   1.163	          linker	[Debug]	        dji_protocol_v1.c:189  <0x02>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   1.183	          linker	[Debug]	        dji_protocol_v1.c:189  <0x03>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   1.204	          linker	[Debug]	        dji_protocol_v1.c:189  <0x04>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   1.226	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   1.235	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   1.235	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   1.255	          linker	[Debug]	        dji_protocol_v1.c:189  <0x01>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   1.275	          linker	[Debug]	        dji_protocol_v1.c:189  <0x02>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   1.295	          linker	[Debug]	        dji_protocol_v1.c:189  <0x03>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   1.315	          linker	[Debug]	        dji_protocol_v1.c:189  <0x04>V1-Send: 0x0A06->0x0300 0x03FD[0m
+[37m   1.338	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   1.338	         adapter	[Debug]	     dji_access_adapter.c:932  Try (p, s, r, c) = (2, 0x0503, 0x0801, 0x0001)[0m
+[37m   1.338	          linker	[Debug]	           dji_protocol.c:83   set V1 Wrap V3 Flag true[0m
+[37m   1.347	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   1.347	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.347	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.347	          linker	[Debug]	        dji_protocol_v3.c:266  <0000>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.367	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.368	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.368	          linker	[Debug]	        dji_protocol_v3.c:266  <0x01>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.384	          linker	[Debug]	        dji_protocol_v3.c:301  protocol frame length 88 error[0m
+[37m   1.388	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.388	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.388	          linker	[Debug]	        dji_protocol_v3.c:266  <0x02>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.404	          linker	[Debug]	        dji_protocol_v3.c:301  protocol frame length 0 error[0m
+[37m   1.408	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.408	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.408	          linker	[Debug]	        dji_protocol_v3.c:266  <0x03>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.428	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.428	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.428	          linker	[Debug]	        dji_protocol_v3.c:266  <0x04>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.443	          linker	[Debug]	        dji_protocol_v3.c:301  protocol frame length 12320 error[0m
+[37m   1.450	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   1.459	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   1.459	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.459	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.459	          linker	[Debug]	        dji_protocol_v3.c:266  <0000>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.479	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.479	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.479	          linker	[Debug]	        dji_protocol_v3.c:266  <0x01>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.499	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.499	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.499	          linker	[Debug]	        dji_protocol_v3.c:266  <0x02>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.519	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.519	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.519	          linker	[Debug]	        dji_protocol_v3.c:266  <0x03>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.540	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.540	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.540	          linker	[Debug]	        dji_protocol_v3.c:266  <0x04>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.562	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   1.571	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   1.571	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.571	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.571	          linker	[Debug]	        dji_protocol_v3.c:266  <0000>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.591	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.591	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.591	          linker	[Debug]	        dji_protocol_v3.c:266  <0x01>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.611	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.611	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.611	          linker	[Debug]	        dji_protocol_v3.c:266  <0x02>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.632	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.632	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.632	          linker	[Debug]	        dji_protocol_v3.c:266  <0x03>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.652	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.652	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.652	          linker	[Debug]	        dji_protocol_v3.c:266  <0x04>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.674	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   1.683	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   1.683	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.683	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.683	          linker	[Debug]	        dji_protocol_v3.c:266  <0000>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.703	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.703	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.703	          linker	[Debug]	        dji_protocol_v3.c:266  <0x01>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.723	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.723	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.723	          linker	[Debug]	        dji_protocol_v3.c:266  <0x02>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.743	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.743	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.743	          linker	[Debug]	        dji_protocol_v3.c:266  <0x03>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.764	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.764	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.764	          linker	[Debug]	        dji_protocol_v3.c:266  <0x04>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.786	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   1.795	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   1.795	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.795	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.795	          linker	[Debug]	        dji_protocol_v3.c:266  <0000>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.815	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.815	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.815	          linker	[Debug]	        dji_protocol_v3.c:266  <0x01>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.835	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.835	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.835	          linker	[Debug]	        dji_protocol_v3.c:266  <0x02>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.855	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.855	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.855	          linker	[Debug]	        dji_protocol_v3.c:266  <0x03>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.876	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.876	          linker	[Debug]	        dji_protocol_v1.c:482  0x0801 convert to 0:0x0801[0m
+[37m   1.876	          linker	[Debug]	        dji_protocol_v3.c:266  <0x04>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0801 0x0001, tLen 21 dLen 0[0m
+[37m   1.898	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   1.898	         adapter	[Debug]	     dji_access_adapter.c:1005 Try (p, s, r, c) = (2, 0x0503, 0x0701, 0x0001)[0m
+[37m   1.898	          linker	[Debug]	           dji_protocol.c:83   set V1 Wrap V3 Flag true[0m
+[37m   1.907	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   1.907	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.907	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   1.907	          linker	[Debug]	        dji_protocol_v3.c:266  <0000>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   1.927	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.927	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   1.927	          linker	[Debug]	        dji_protocol_v3.c:266  <0x01>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   1.947	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.947	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   1.947	          linker	[Debug]	        dji_protocol_v3.c:266  <0x02>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   1.968	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.968	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   1.968	          linker	[Debug]	        dji_protocol_v3.c:266  <0x03>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   1.988	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   1.988	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   1.988	          linker	[Debug]	        dji_protocol_v3.c:266  <0x04>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.010	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   2.019	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   2.019	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.019	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.019	          linker	[Debug]	        dji_protocol_v3.c:266  <0000>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.039	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.039	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.039	          linker	[Debug]	        dji_protocol_v3.c:266  <0x01>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.059	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.059	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.059	          linker	[Debug]	        dji_protocol_v3.c:266  <0x02>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.079	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.079	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.079	          linker	[Debug]	        dji_protocol_v3.c:266  <0x03>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.099	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.099	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.099	          linker	[Debug]	        dji_protocol_v3.c:266  <0x04>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.121	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   2.129	           utils	[Debug]	          dji_root_task.c:131  work execution time:[0m
+[37m   2.129	           utils	[Debug]	          dji_root_task.c:132  name	                execution time (ms)	  max execution time (ms)[0m
+[37m   2.129	           utils	[Debug]	          dji_root_task.c:134  recorderWork                    	1       	1       [0m
+[37m   2.129	           utils	[Debug]	          dji_root_task.c:134  flowControllerTask              	0       	1       [0m
+[37m   2.130	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   2.130	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.130	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.130	          linker	[Debug]	        dji_protocol_v3.c:266  <0000>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.151	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.151	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.151	          linker	[Debug]	        dji_protocol_v3.c:266  <0x01>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.171	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.171	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.171	          linker	[Debug]	        dji_protocol_v3.c:266  <0x02>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.191	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.191	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.191	          linker	[Debug]	        dji_protocol_v3.c:266  <0x03>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.211	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.211	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.211	          linker	[Debug]	        dji_protocol_v3.c:266  <0x04>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.233	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   2.242	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   2.242	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.242	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.242	          linker	[Debug]	        dji_protocol_v3.c:266  <0000>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.262	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.262	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.262	          linker	[Debug]	        dji_protocol_v3.c:266  <0x01>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.282	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.282	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.282	          linker	[Debug]	        dji_protocol_v3.c:266  <0x02>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.302	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.302	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.302	          linker	[Debug]	        dji_protocol_v3.c:266  <0x03>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.323	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.323	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.323	          linker	[Debug]	        dji_protocol_v3.c:266  <0x04>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.345	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   2.354	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   2.354	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.354	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.354	          linker	[Debug]	        dji_protocol_v3.c:266  <0000>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.374	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.374	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.374	          linker	[Debug]	        dji_protocol_v3.c:266  <0x01>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.394	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.394	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.394	          linker	[Debug]	        dji_protocol_v3.c:266  <0x02>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.414	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.414	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.414	          linker	[Debug]	        dji_protocol_v3.c:266  <0x03>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.435	          linker	[Debug]	        dji_protocol_v1.c:482  0x0503 convert to 0:0x0503[0m
+[37m   2.435	          linker	[Debug]	        dji_protocol_v1.c:482  0x0701 convert to 0:0x0701[0m
+[37m   2.435	          linker	[Debug]	        dji_protocol_v3.c:266  <0x04>V3-Send: 00:003F:001E:0x0503 -> 00:003F:001E:0x0701 0x0001, tLen 21 dLen 0[0m
+[37m   2.457	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   2.457	         adapter	[Debug]	     dji_access_adapter.c:1078 Try (p, s, r, c) = (2, 0x0a07, 0x0300, 0x03fd)[0m
+[37m   2.457	          linker	[Debug]	           dji_protocol.c:83   set V1 Wrap V3 Flag false[0m
+[37m   2.466	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   2.466	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.486	          linker	[Debug]	        dji_protocol_v1.c:189  <0x01>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.506	          linker	[Debug]	        dji_protocol_v1.c:189  <0x02>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.527	          linker	[Debug]	        dji_protocol_v1.c:189  <0x03>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.547	          linker	[Debug]	        dji_protocol_v1.c:189  <0x04>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.569	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   2.578	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   2.578	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.598	          linker	[Debug]	        dji_protocol_v1.c:189  <0x01>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.618	          linker	[Debug]	        dji_protocol_v1.c:189  <0x02>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.638	          linker	[Debug]	        dji_protocol_v1.c:189  <0x03>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.658	          linker	[Debug]	        dji_protocol_v1.c:189  <0x04>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.681	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   2.690	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   2.690	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.710	          linker	[Debug]	        dji_protocol_v1.c:189  <0x01>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.730	          linker	[Debug]	        dji_protocol_v1.c:189  <0x02>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.750	          linker	[Debug]	        dji_protocol_v1.c:189  <0x03>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.770	          linker	[Debug]	        dji_protocol_v1.c:189  <0x04>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.793	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   2.802	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   2.802	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.822	          linker	[Debug]	        dji_protocol_v1.c:189  <0x01>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.842	          linker	[Debug]	        dji_protocol_v1.c:189  <0x02>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.862	          linker	[Debug]	        dji_protocol_v1.c:189  <0x03>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.883	          linker	[Debug]	        dji_protocol_v1.c:189  <0x04>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.905	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   2.914	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   2.914	          linker	[Debug]	        dji_protocol_v1.c:189  <0000>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.934	          linker	[Debug]	        dji_protocol_v1.c:189  <0x01>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.954	          linker	[Debug]	        dji_protocol_v1.c:189  <0x02>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.974	          linker	[Debug]	        dji_protocol_v1.c:189  <0x03>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   2.994	          linker	[Debug]	        dji_protocol_v1.c:189  <0x04>V1-Send: 0x0A07->0x0300 0x03FD[0m
+[37m   3.017	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   3.017	         adapter	[Debug]	     dji_access_adapter.c:1156 Try (p, s, r, c) = (1, 0x0a00, 0x0300, 0x0000)[0m
+[37m   3.026	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:1, channelId:0[0m
+[37m   3.026	          linker	[Debug]	       dji_protocol_sdk.c:183  SDK-Send: 0x0A->0x03 0x0000[0m
+[37m   3.040	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.045	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0000[0m
+[37m   3.046	          linker	[Debug]	       dji_protocol_sdk.c:183  SDK-Send: 0x0A->0x03 0x0000[0m
+[37m   3.046	           utils	[Debug]	    dji_sdk_verison_ack.c:173  Device Serial No. = 1ZNDH9N00CEM41[0m
+[37m   3.046	           utils	[Debug]	    dji_sdk_verison_ack.c:175  Firmware = 3.4.18.68[0m
+[32m   3.046	           utils	[Info]	    dji_sdk_verison_ack.c:183  Identify aircraft serial number = 1ZNDH9N00CEM41, Firmware = 3.4.18.68[0m
+[37m   3.049	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:1, channelId:0[0m
+[32m   3.049	         adapter	[Info]	     dji_access_adapter.c:393  Identify aircraft series is Matrice 300 Series[0m
+[32m   3.049	         adapter	[Info]	     dji_access_adapter.c:432  Identify mount position type is Extension Port Type[0m
+[37m   3.054	          linker	[Debug]	            dji_command.c:170  config list channel id:1[0m
+[37m   3.060	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:1, channelId:0[0m
+[37m   3.060	          linker	[Debug]	            dji_command.c:179  add linker node count:1[0m
+[37m   3.060	          linker	[Debug]	            dji_command.c:170  config list channel id:2[0m
+[37m   3.063	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   3.063	          linker	[Debug]	            dji_command.c:179  add linker node count:2[0m
+[32m   3.063	         adapter	[Info]	     dji_access_adapter.c:554  Identity uart0 baudrate is 115200 bps[0m
+[32m   3.063	         adapter	[Info]	  dji_payload_negotiate.c:138  No need negotiate device info[0m
+[37m   3.068	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:1, channelId:0[0m
+[37m   3.069	          linker	[Debug]	             dji_linker.c:171  deinit linker success, protocol:2, channelId:0[0m
+[37m   3.069	          linker	[Debug]	            dji_command.c:301  config list channel id:1[0m
+[37m   3.076	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:1, channelId:0[0m
+[37m   3.076	          linker	[Debug]	            dji_command.c:310  add linker node count:1[0m
+[37m   3.076	          linker	[Debug]	            dji_command.c:301  config list channel id:2[0m
+[37m   3.079	          linker	[Debug]	        dji_protocol_v1.c:309  <0xd53b>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   3.079	          linker	[Debug]	             dji_linker.c:129  init linker success, protocol:2, channelId:0[0m
+[37m   3.079	          linker	[Debug]	            dji_command.c:310  add linker node count:2[0m
+[37m   3.079	          linker	[Debug]	            dji_command.c:733  Reg command handle list success, index:0[0m
+[37m   3.079	            auth	[Debug]	       dji_sdk_activate.c:71   This is a OSDK port. Now need to do activation.[0m
+[37m   3.079	          linker	[Debug]	       dji_protocol_sdk.c:183  SDK-Send: 0x0A->0x03 0x0000[0m
+[37m   3.079	          linker	[Debug]	            dji_command.c:556  Max wait ack item count is 32.[0m
+[37m   3.092	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.093	          linker	[Debug]	            dji_command.c:1128  <0xd548>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.093	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd548> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.101	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.101	          linker	[Debug]	            dji_command.c:1128  <0xd558>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.101	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd558> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.106	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0000[0m
+[37m   3.107	          linker	[Debug]	            dji_command.c:1128  <0xf732>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0000 len:49[0m
+[37m   3.107	          linker	[Debug]	            dji_command.c:1076 PsdkCommand_SendSyncCallback success[0m
+[37m   3.107	          linker	[Debug]	            dji_command.c:890  callback function (cmdset: 0x00 cmdid: 0x00) deal time: 0 ms[0m
+[37m   3.107	          linker	[Debug]	            dji_command.c:612  sendSync callback success[0m
+[37m   3.107	           utils	[Debug]	    dji_sdk_verison_ack.c:173  Device Serial No. = 1ZNDH9N00CEM41[0m
+[37m   3.107	           utils	[Debug]	    dji_sdk_verison_ack.c:175  Firmware = 3.4.18.68[0m
+[37m   3.107	          linker	[Debug]	       dji_protocol_sdk.c:183  SDK-Send: 0x0A->0x03 0x0001[0m
+[37m   3.114	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.115	          linker	[Debug]	            dji_command.c:1128  <0xd566>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.115	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd566> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.123	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.123	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0001[0m
+[37m   3.124	          linker	[Debug]	            dji_command.c:1128  <0xd576>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.124	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd576> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.125	          linker	[Debug]	            dji_command.c:1128  <0xf733>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0001 len:2[0m
+[37m   3.125	          linker	[Debug]	            dji_command.c:1076 PsdkCommand_SendSyncCallback success[0m
+[37m   3.125	          linker	[Debug]	            dji_command.c:890  callback function (cmdset: 0x00 cmdid: 0x01) deal time: 0 ms[0m
+[37m   3.125	          linker	[Debug]	            dji_command.c:612  sendSync callback success[0m
+[37m   3.125	            auth	[Debug]	       dji_sdk_activate.c:273  Activate sdk successfully.[0m
+[37m   3.125	            auth	[Debug]	       dji_sdk_activate.c:85   Activate OSDK functions successfully.[0m
+[37m   3.125	          linker	[Debug]	       dji_protocol_sdk.c:183  SDK-Send: 0x0A->0x03 0x0003[0m
+[37m   3.131	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.132	          linker	[Debug]	            dji_command.c:1128  <0xd592>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.132	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd592> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.139	          linker	[Debug]	        dji_protocol_v1.c:309  <0xd5b2>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   3.140	          linker	[Debug]	            dji_command.c:1128  <0xd5b2>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   3.140	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd5b2> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   3.140	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.141	          linker	[Debug]	            dji_command.c:1128  <0xd5a1>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.141	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd5a1> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.144	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0003[0m
+[37m   3.145	          linker	[Debug]	            dji_command.c:1128  <0xf734>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0003 len:1[0m
+[37m   3.145	          linker	[Debug]	            dji_command.c:1076 PsdkCommand_SendSyncCallback success[0m
+[37m   3.145	          linker	[Debug]	            dji_command.c:890  callback function (cmdset: 0x00 cmdid: 0x03) deal time: 0 ms[0m
+[37m   3.145	          linker	[Debug]	            dji_command.c:612  sendSync callback success[0m
+[37m   3.152	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.153	          linker	[Debug]	            dji_command.c:1128  <0xd5b9>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.153	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd5b9> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.161	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.162	          linker	[Debug]	            dji_command.c:1128  <0xd5c9>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.162	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd5c9> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.172	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.173	          linker	[Debug]	            dji_command.c:1128  <0xd5d9>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.173	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd5d9> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.179	          linker	[Debug]	        dji_protocol_v1.c:309  <0xd5fa>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   3.179	          linker	[Debug]	            dji_command.c:1128  <0xd5fa>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   3.179	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd5fa> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   3.182	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.182	          linker	[Debug]	            dji_command.c:1128  <0xd5e9>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.182	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd5e9> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.191	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.192	          linker	[Debug]	            dji_command.c:1128  <0xd606>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.192	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd606> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.192	           utils	[Debug]	          dji_root_task.c:131  work execution time:[0m
+[37m   3.192	           utils	[Debug]	          dji_root_task.c:132  name	                execution time (ms)	  max execution time (ms)[0m
+[37m   3.192	           utils	[Debug]	          dji_root_task.c:134  recorderWork                    	1       	1       [0m
+[37m   3.192	           utils	[Debug]	          dji_root_task.c:134  flowControllerTask              	1       	1       [0m
+[37m   3.192	           utils	[Debug]	          dji_root_task.c:134  commandTask                     	0       	0       [0m
+[37m   3.202	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.203	          linker	[Debug]	            dji_command.c:1128  <0xd616>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.203	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd616> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.212	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.212	          linker	[Debug]	            dji_command.c:1128  <0xd624>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.212	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd624> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.221	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.222	          linker	[Debug]	            dji_command.c:1128  <0xd635>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.222	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd635> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.231	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.231	          linker	[Debug]	            dji_command.c:1128  <0xd649>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.231	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd649> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.238	          linker	[Debug]	        dji_protocol_v1.c:309  <0xd665>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   3.238	          linker	[Debug]	            dji_command.c:1128  <0xd665>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   3.238	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd665> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   3.242	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.242	          linker	[Debug]	            dji_command.c:1128  <0xd658>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.242	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd658> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.251	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.252	          linker	[Debug]	            dji_command.c:1128  <0xd66c>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.252	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd66c> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.261	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.262	          linker	[Debug]	            dji_command.c:1128  <0xd67c>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.262	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd67c> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.272	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.273	          linker	[Debug]	            dji_command.c:1128  <0xd68e>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.273	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd68e> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.279	          linker	[Debug]	        dji_protocol_v1.c:309  <0xd6ac>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   3.279	          linker	[Debug]	            dji_command.c:1128  <0xd6ac>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   3.279	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd6ac> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   3.281	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.282	          linker	[Debug]	            dji_command.c:1128  <0xd69e>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.282	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd69e> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.292	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.293	          linker	[Debug]	            dji_command.c:1128  <0xd6b9>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.293	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd6b9> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.302	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.303	          linker	[Debug]	            dji_command.c:1128  <0xd6c9>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.303	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd6c9> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.311	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.312	          linker	[Debug]	            dji_command.c:1128  <0xd6d8>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.312	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd6d8> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.322	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.323	          linker	[Debug]	            dji_command.c:1128  <0xd6e8>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.323	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd6e8> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.332	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.333	          linker	[Debug]	            dji_command.c:1128  <0xd6ff>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.333	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd6ff> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.338	          linker	[Debug]	        dji_protocol_v1.c:309  <0xd71a>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   3.339	          linker	[Debug]	            dji_command.c:1128  <0xd71a>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   3.339	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd71a> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   3.341	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.342	          linker	[Debug]	            dji_command.c:1128  <0xd70e>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.342	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd70e> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.345	          linker	[Debug]	       dji_protocol_sdk.c:183  SDK-Send: 0x0A->0x03 0x0003[0m
+[37m   3.352	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.353	          linker	[Debug]	            dji_command.c:1128  <0xd721>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.353	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd721> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.360	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.361	          linker	[Debug]	            dji_command.c:1128  <0xd731>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.361	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd731> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.364	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0003[0m
+[37m   3.364	          linker	[Debug]	            dji_command.c:1128  <0xf735>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0003 len:1[0m
+[37m   3.364	          linker	[Debug]	            dji_command.c:1076 PsdkCommand_SendSyncCallback success[0m
+[37m   3.364	          linker	[Debug]	            dji_command.c:890  callback function (cmdset: 0x00 cmdid: 0x03) deal time: 0 ms[0m
+[37m   3.364	          linker	[Debug]	            dji_command.c:612  sendSync callback success[0m
+[37m   3.371	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.372	          linker	[Debug]	            dji_command.c:1128  <0xd74a>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.372	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd74a> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.379	          linker	[Debug]	        dji_protocol_v1.c:309  <0xd768>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   3.379	          linker	[Debug]	            dji_command.c:1128  <0xd768>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   3.379	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd768> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   3.382	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.383	          linker	[Debug]	            dji_command.c:1128  <0xd75a>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.383	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd75a> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.392	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.392	          linker	[Debug]	            dji_command.c:1128  <0xd774>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.392	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd774> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.402	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.403	          linker	[Debug]	            dji_command.c:1128  <0xd784>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.403	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd784> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.412	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.412	          linker	[Debug]	            dji_command.c:1128  <0xd792>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.412	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd792> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.421	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.422	          linker	[Debug]	            dji_command.c:1128  <0xd7a3>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.422	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd7a3> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.432	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.432	          linker	[Debug]	            dji_command.c:1128  <0xd7b9>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.432	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd7b9> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.439	          linker	[Debug]	        dji_protocol_v1.c:309  <0xd7d5>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   3.439	          linker	[Debug]	            dji_command.c:1128  <0xd7d5>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   3.439	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd7d5> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   3.441	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.441	          linker	[Debug]	            dji_command.c:1128  <0xd7c8>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.441	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd7c8> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.443	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0405[0m
+[37m   3.443	          linker	[Debug]	            dji_command.c:1128  <0xd7da>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0405 len:22[0m
+[37m   3.443	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd7da> cmdset: 0x04 cmdid: 0x05[0m
+[37m   3.453	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.454	          linker	[Debug]	            dji_command.c:1128  <0xd7e1>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.454	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd7e1> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.461	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.462	          linker	[Debug]	            dji_command.c:1128  <0xd7f1>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.462	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd7f1> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.472	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.473	          linker	[Debug]	            dji_command.c:1128  <0xd806>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.473	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd806> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.478	          linker	[Debug]	        dji_protocol_v1.c:309  <0xd824>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   3.479	          linker	[Debug]	            dji_command.c:1128  <0xd824>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   3.479	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd824> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   3.482	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.482	          linker	[Debug]	            dji_command.c:1128  <0xd816>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.482	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd816> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.491	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.492	          linker	[Debug]	            dji_command.c:1128  <0xd831>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.492	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd831> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.503	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.504	          linker	[Debug]	            dji_command.c:1128  <0xd841>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:98[0m
+[37m   3.504	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd841> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.512	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.512	          linker	[Debug]	            dji_command.c:1128  <0xd85c>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.512	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd85c> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.521	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.522	          linker	[Debug]	            dji_command.c:1128  <0xd86d>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.522	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd86d> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.532	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.532	          linker	[Debug]	            dji_command.c:1128  <0xd885>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.532	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd885> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.538	          linker	[Debug]	        dji_protocol_v1.c:309  <0xd8a1>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   3.539	          linker	[Debug]	            dji_command.c:1128  <0xd8a1>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   3.539	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd8a1> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   3.542	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.542	          linker	[Debug]	            dji_command.c:1128  <0xd895>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.542	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd895> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.551	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.551	          linker	[Debug]	            dji_command.c:1128  <0xd8a8>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.551	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd8a8> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.562	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.563	          linker	[Debug]	            dji_command.c:1128  <0xd8b8>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.563	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd8b8> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.565	          linker	[Debug]	       dji_protocol_sdk.c:183  SDK-Send: 0x0A->0x03 0x0003[0m
+[37m   3.572	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.573	          linker	[Debug]	            dji_command.c:1128  <0xd8c7>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.573	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd8c7> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.578	          linker	[Debug]	        dji_protocol_v1.c:309  <0xd8e9>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   3.579	          linker	[Debug]	            dji_command.c:1128  <0xd8e9>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   3.579	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd8e9> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   3.581	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.581	          linker	[Debug]	            dji_command.c:1128  <0xd8d7>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.581	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd8d7> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.584	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0003[0m
+[37m   3.584	          linker	[Debug]	            dji_command.c:1128  <0xf736>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0003 len:1[0m
+[37m   3.584	          linker	[Debug]	            dji_command.c:1076 PsdkCommand_SendSyncCallback success[0m
+[37m   3.584	          linker	[Debug]	            dji_command.c:890  callback function (cmdset: 0x00 cmdid: 0x03) deal time: 0 ms[0m
+[37m   3.584	          linker	[Debug]	            dji_command.c:612  sendSync callback success[0m
+[37m   3.591	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.592	          linker	[Debug]	            dji_command.c:1128  <0xd8f5>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.592	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd8f5> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.602	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.602	          linker	[Debug]	            dji_command.c:1128  <0xd905>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.602	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd905> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.612	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.612	          linker	[Debug]	            dji_command.c:1128  <0xd913>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.612	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd913> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.621	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.622	          linker	[Debug]	            dji_command.c:1128  <0xd924>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.622	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd924> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.632	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.632	          linker	[Debug]	            dji_command.c:1128  <0xd938>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.632	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd938> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.638	          linker	[Debug]	        dji_protocol_v1.c:309  <0xd954>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   3.639	          linker	[Debug]	            dji_command.c:1128  <0xd954>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   3.639	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd954> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   3.642	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.642	          linker	[Debug]	            dji_command.c:1128  <0xd947>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.642	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd947> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.651	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.652	          linker	[Debug]	            dji_command.c:1128  <0xd95b>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.652	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd95b> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.662	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.662	          linker	[Debug]	            dji_command.c:1128  <0xd96b>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.662	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd96b> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.672	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.672	          linker	[Debug]	            dji_command.c:1128  <0xd97d>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.672	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd97d> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.678	          linker	[Debug]	        dji_protocol_v1.c:309  <0xd99c>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   3.678	          linker	[Debug]	            dji_command.c:1128  <0xd99c>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   3.678	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd99c> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   3.682	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.683	          linker	[Debug]	            dji_command.c:1128  <0xd98d>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.683	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd98d> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.691	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.692	          linker	[Debug]	            dji_command.c:1128  <0xd9a9>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.692	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd9a9> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.702	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.703	          linker	[Debug]	            dji_command.c:1128  <0xd9b9>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.703	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd9b9> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.712	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.712	          linker	[Debug]	            dji_command.c:1128  <0xd9c7>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.712	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd9c7> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.721	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.722	          linker	[Debug]	            dji_command.c:1128  <0xd9d7>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.722	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd9d7> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.732	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.732	          linker	[Debug]	            dji_command.c:1128  <0xd9ec>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.732	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd9ec> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.739	          linker	[Debug]	        dji_protocol_v1.c:309  <0xda07>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   3.740	          linker	[Debug]	            dji_command.c:1128  <0xda07>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   3.740	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xda07> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   3.742	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.742	          linker	[Debug]	            dji_command.c:1128  <0xd9fb>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.742	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xd9fb> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.751	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.752	          linker	[Debug]	            dji_command.c:1128  <0xda0e>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.752	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xda0e> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.762	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.762	          linker	[Debug]	            dji_command.c:1128  <0xda1e>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.762	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xda1e> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.772	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.772	          linker	[Debug]	            dji_command.c:1128  <0xda2d>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.772	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xda2d> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.779	          linker	[Debug]	        dji_protocol_v1.c:309  <0xda4b>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   3.779	          linker	[Debug]	            dji_command.c:1128  <0xda4b>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   3.779	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xda4b> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   3.781	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.782	          linker	[Debug]	            dji_command.c:1128  <0xda3d>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.782	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xda3d> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.785	          linker	[Debug]	       dji_protocol_sdk.c:183  SDK-Send: 0x0A->0x03 0x0003[0m
+[37m   3.792	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.792	          linker	[Debug]	            dji_command.c:1128  <0xda57>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.792	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xda57> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.801	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.802	          linker	[Debug]	            dji_command.c:1128  <0xda67>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.802	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xda67> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.804	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0003[0m
+[37m   3.805	          linker	[Debug]	            dji_command.c:1128  <0xf737>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0003 len:1[0m
+[37m   3.805	          linker	[Debug]	            dji_command.c:1076 PsdkCommand_SendSyncCallback success[0m
+[37m   3.805	          linker	[Debug]	            dji_command.c:890  callback function (cmdset: 0x00 cmdid: 0x03) deal time: 0 ms[0m
+[37m   3.805	          linker	[Debug]	            dji_command.c:612  sendSync callback success[0m
+[37m   3.812	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.812	          linker	[Debug]	            dji_command.c:1128  <0xda79>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.813	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xda79> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.821	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.822	          linker	[Debug]	            dji_command.c:1128  <0xda8a>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.822	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xda8a> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.832	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.833	          linker	[Debug]	            dji_command.c:1128  <0xda9e>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.833	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xda9e> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.839	          linker	[Debug]	        dji_protocol_v1.c:309  <0xdaba>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   3.839	          linker	[Debug]	            dji_command.c:1128  <0xdaba>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   3.839	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdaba> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   3.842	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.842	          linker	[Debug]	            dji_command.c:1128  <0xdaad>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.842	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdaad> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.851	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.852	          linker	[Debug]	            dji_command.c:1128  <0xdac1>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.852	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdac1> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.862	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.862	          linker	[Debug]	            dji_command.c:1128  <0xdad1>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.862	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdad1> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.872	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.872	          linker	[Debug]	            dji_command.c:1128  <0xdae4>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.872	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdae4> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.878	          linker	[Debug]	        dji_protocol_v1.c:309  <0xdb02>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   3.878	          linker	[Debug]	            dji_command.c:1128  <0xdb02>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   3.878	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdb02> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   3.881	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.882	          linker	[Debug]	            dji_command.c:1128  <0xdaf4>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.882	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdaf4> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.892	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.892	          linker	[Debug]	            dji_command.c:1128  <0xdb0f>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.892	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdb0f> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.902	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.903	          linker	[Debug]	            dji_command.c:1128  <0xdb1f>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.903	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdb1f> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.911	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.912	          linker	[Debug]	            dji_command.c:1128  <0xdb2d>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.912	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdb2d> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.922	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.923	          linker	[Debug]	            dji_command.c:1128  <0xdb3d>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.923	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdb3d> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.923	          linker	[Debug]	        dji_protocol_v1.c:309  <0xae5>V1-Recv: 0x1D07->0x0A06 0x2105[0m
+[37m   3.924	          linker	[Debug]	            dji_command.c:1128  <0xae5>Receive msg from linker, 0x1D07(0x00FD)->0x0A06(0x00CA) 0x2105 len:1[0m
+[37m   3.924	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that need ack, <0xae5> cmdset: 0x21 cmdid: 0x05[0m
+[37m   3.932	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.933	          linker	[Debug]	            dji_command.c:1128  <0xdb56>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.933	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdb56> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.938	          linker	[Debug]	        dji_protocol_v1.c:309  <0xdb71>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   3.939	          linker	[Debug]	            dji_command.c:1128  <0xdb71>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   3.939	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdb71> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   3.940	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.941	          linker	[Debug]	            dji_command.c:1128  <0xdb65>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.941	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdb65> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.944	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0406[0m
+[37m   3.944	          linker	[Debug]	            dji_command.c:1128  <0xdb77>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0406 len:12[0m
+[37m   3.944	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdb77> cmdset: 0x04 cmdid: 0x06[0m
+[37m   3.946	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0407[0m
+[37m   3.946	          linker	[Debug]	            dji_command.c:1128  <0xdb78>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0407 len:1[0m
+[37m   3.946	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdb78> cmdset: 0x04 cmdid: 0x07[0m
+[37m   3.954	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.955	          linker	[Debug]	            dji_command.c:1128  <0xdb7f>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.955	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdb7f> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.962	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.962	          linker	[Debug]	            dji_command.c:1128  <0xdb8f>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.962	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdb8f> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.971	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.972	          linker	[Debug]	            dji_command.c:1128  <0xdb9e>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.972	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdb9e> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.978	          linker	[Debug]	        dji_protocol_v1.c:309  <0xdbbc>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   3.978	          linker	[Debug]	            dji_command.c:1128  <0xdbbc>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   3.978	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdbbc> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   3.982	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.983	          linker	[Debug]	            dji_command.c:1128  <0xdbae>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.983	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdbae> cmdset: 0x02 cmdid: 0x00[0m
+[37m   3.992	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   3.992	          linker	[Debug]	            dji_command.c:1128  <0xdbc9>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   3.992	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdbc9> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.002	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.003	          linker	[Debug]	            dji_command.c:1128  <0xdbd9>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.003	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdbd9> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.005	          linker	[Debug]	       dji_protocol_sdk.c:183  SDK-Send: 0x0A->0x03 0x0003[0m
+[37m   4.012	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.012	          linker	[Debug]	            dji_command.c:1128  <0xdbe7>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.012	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdbe7> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.020	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.021	          linker	[Debug]	            dji_command.c:1128  <0xdbf8>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.021	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdbf8> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.025	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0003[0m
+[37m   4.025	          linker	[Debug]	            dji_command.c:1128  <0xf738>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0003 len:1[0m
+[37m   4.025	          linker	[Debug]	            dji_command.c:1076 PsdkCommand_SendSyncCallback success[0m
+[37m   4.025	          linker	[Debug]	            dji_command.c:612  sendSync callback success[0m
+[37m   4.025	          linker	[Debug]	            dji_command.c:890  callback function (cmdset: 0x00 cmdid: 0x03) deal time: 0 ms[0m
+[37m   4.032	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.033	          linker	[Debug]	            dji_command.c:1128  <0xdc10>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.033	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdc10> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.038	          linker	[Debug]	        dji_protocol_v1.c:309  <0xdc2c>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   4.039	          linker	[Debug]	            dji_command.c:1128  <0xdc2c>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   4.039	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdc2c> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   4.042	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.042	          linker	[Debug]	            dji_command.c:1128  <0xdc1f>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.042	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdc1f> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.051	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.052	          linker	[Debug]	            dji_command.c:1128  <0xdc33>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.052	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdc33> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.062	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.062	          linker	[Debug]	            dji_command.c:1128  <0xdc43>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.062	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdc43> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.071	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.072	          linker	[Debug]	            dji_command.c:1128  <0xdc55>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.072	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdc55> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.078	          linker	[Debug]	        dji_protocol_v1.c:309  <0xdc73>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   4.078	          linker	[Debug]	            dji_command.c:1128  <0xdc73>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   4.078	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdc73> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   4.082	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.082	          linker	[Debug]	            dji_command.c:1128  <0xdc65>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.083	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdc65> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.092	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.092	          linker	[Debug]	            dji_command.c:1128  <0xdc80>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.092	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdc80> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.101	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.102	          linker	[Debug]	            dji_command.c:1128  <0xdc90>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.102	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdc90> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.112	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.112	          linker	[Debug]	            dji_command.c:1128  <0xdc9e>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.112	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdc9e> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.122	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.122	          linker	[Debug]	            dji_command.c:1128  <0xdcae>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.122	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdcae> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.132	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.133	          linker	[Debug]	            dji_command.c:1128  <0xdcc5>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.133	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdcc5> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.138	          linker	[Debug]	        dji_protocol_v1.c:309  <0xdce0>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   4.138	          linker	[Debug]	            dji_command.c:1128  <0xdce0>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   4.138	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdce0> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   4.142	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.142	          linker	[Debug]	            dji_command.c:1128  <0xdcd4>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.142	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdcd4> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.151	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.152	          linker	[Debug]	            dji_command.c:1128  <0xdce7>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.152	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdce7> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.162	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.162	          linker	[Debug]	            dji_command.c:1128  <0xdcf7>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.162	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdcf7> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.172	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.172	          linker	[Debug]	            dji_command.c:1128  <0xdd07>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.172	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdd07> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.179	          linker	[Debug]	        dji_protocol_v1.c:309  <0xdd28>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   4.179	          linker	[Debug]	            dji_command.c:1128  <0xdd28>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   4.179	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdd28> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   4.181	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.182	          linker	[Debug]	            dji_command.c:1128  <0xdd17>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.182	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdd17> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.192	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.192	          linker	[Debug]	            dji_command.c:1128  <0xdd34>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.192	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdd34> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.201	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.202	          linker	[Debug]	            dji_command.c:1128  <0xdd44>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.202	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdd44> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.212	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.212	          linker	[Debug]	            dji_command.c:1128  <0xdd52>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.212	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdd52> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.222	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.222	          linker	[Debug]	            dji_command.c:1128  <0xdd63>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.222	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdd63> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.225	          linker	[Debug]	            dji_command.c:733  Reg command handle list success, index:1[0m
+[37m   4.225	          linker	[Debug]	            dji_command.c:733  Reg command handle list success, index:2[0m
+[37m   4.225	           infor	[Debug]	    dji_identity_verify.c:574  keep the requestPolicyUpdateCmdReceiverId as configured.[0m
+[37m   4.225	          linker	[Debug]	        dji_protocol_v1.c:189  <0xf739>V1-Send: 0x0A06->0x0701 0x3C40[0m
+[32m   4.225	            core	[Info]	    dji_identity_verify.c:646  Updating dji sdk policy file...[0m
+[37m   4.227	          linker	[Debug]	        dji_protocol_v1.c:309  <0xf739>V1-Recv: 0x0701->0x0A06 0x3C40[0m
+[37m   4.227	          linker	[Debug]	            dji_command.c:1128  <0xf739>Receive msg from linker, 0x0701(0x0027)->0x0A06(0x00CA) 0x3C40 len:1[0m
+[37m   4.227	            auth	[Debug]	    dji_identity_verify.c:601  request update policy file success[0m
+[37m   4.227	          linker	[Debug]	            dji_command.c:890  callback function (cmdset: 0x3C cmdid: 0x40) deal time: 0 ms[0m
+[37m   4.231	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.232	          linker	[Debug]	            dji_command.c:1128  <0xdd77>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.232	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdd77> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.234	          linker	[Debug]	        dji_protocol_v1.c:309  <0x0a>V1-Recv: 0x0801->0x0A06 0x3C40[0m
+[37m   4.235	          linker	[Debug]	            dji_command.c:1128  <0x0a>Receive msg from linker, 0x0801(0x0028)->0x0A06(0x00CA) 0x3C40 len:12[0m
+[37m   4.235	            auth	[Debug]	    dji_identity_verify.c:426  request upload policy file type:0[0m
+[37m   4.235	            auth	[Debug]	    dji_identity_verify.c:439  upload policy file info md5 checksum and version[0m
+[37m   4.235	          linker	[Debug]	        dji_protocol_v1.c:189  <0x0a>V1-Send: 0x0A06->0x0801 0x3C40[0m
+[37m   4.236	          linker	[Debug]	        dji_protocol_v1.c:309  <0x0b>V1-Recv: 0x0801->0x0A06 0x3C40[0m
+[37m   4.237	          linker	[Debug]	            dji_command.c:1128  <0x0b>Receive msg from linker, 0x0801(0x0028)->0x0A06(0x00CA) 0x3C40 len:12[0m
+[37m   4.237	            auth	[Debug]	    dji_identity_verify.c:426  request upload policy file type:1[0m
+[37m   4.237	            auth	[Debug]	    dji_identity_verify.c:458  request upload policy file data: 0 0 200[0m
+[37m   4.237	          linker	[Debug]	        dji_protocol_v1.c:189  <0x0b>V1-Send: 0x0A06->0x0801 0x3C40[0m
+[37m   4.239	          linker	[Debug]	        dji_protocol_v1.c:309  <0xdd93>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   4.239	          linker	[Debug]	        dji_protocol_v1.c:309  <0x0c>V1-Recv: 0x0801->0x0A06 0x3C40[0m
+[37m   4.239	          linker	[Debug]	            dji_command.c:1128  <0xdd93>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   4.239	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdd93> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   4.240	          linker	[Debug]	            dji_command.c:1128  <0x0c>Receive msg from linker, 0x0801(0x0028)->0x0A06(0x00CA) 0x3C40 len:12[0m
+[37m   4.240	            auth	[Debug]	    dji_identity_verify.c:426  request upload policy file type:1[0m
+[37m   4.240	            auth	[Debug]	    dji_identity_verify.c:458  request upload policy file data: 1 200 200[0m
+[37m   4.240	          linker	[Debug]	        dji_protocol_v1.c:189  <0x0c>V1-Send: 0x0A06->0x0801 0x3C40[0m
+[37m   4.242	          linker	[Debug]	        dji_protocol_v1.c:309  <0x0d>V1-Recv: 0x0801->0x0A06 0x3C40[0m
+[37m   4.242	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.242	          linker	[Debug]	            dji_command.c:1128  <0xdd86>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.242	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdd86> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.242	          linker	[Debug]	            dji_command.c:1128  <0x0d>Receive msg from linker, 0x0801(0x0028)->0x0A06(0x00CA) 0x3C40 len:12[0m
+[37m   4.242	            auth	[Debug]	    dji_identity_verify.c:426  request upload policy file type:1[0m
+[37m   4.242	            auth	[Debug]	    dji_identity_verify.c:458  request upload policy file data: 2 400 130[0m
+[37m   4.242	          linker	[Debug]	        dji_protocol_v1.c:189  <0x0d>V1-Send: 0x0A06->0x0801 0x3C40[0m
+[37m   4.244	          linker	[Debug]	        dji_protocol_v1.c:309  <0x0e>V1-Recv: 0x0801->0x0A06 0x3C40[0m
+[37m   4.245	          linker	[Debug]	            dji_command.c:1128  <0x0e>Receive msg from linker, 0x0801(0x0028)->0x0A06(0x00CA) 0x3C40 len:12[0m
+[37m   4.245	            auth	[Debug]	    dji_identity_verify.c:426  request upload policy file type:2[0m
+[37m   4.245	            auth	[Debug]	    dji_identity_verify.c:480  request upload policy file success[0m
+[37m   4.245	          linker	[Debug]	        dji_protocol_v1.c:189  <0x0e>V1-Send: 0x0A06->0x0801 0x3C40[0m
+[37m   4.251	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.252	          linker	[Debug]	            dji_command.c:1128  <0xdd9a>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.252	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdd9a> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.256	           utils	[Debug]	          dji_root_task.c:131  work execution time:[0m
+[37m   4.256	           utils	[Debug]	          dji_root_task.c:132  name	                execution time (ms)	  max execution time (ms)[0m
+[37m   4.256	           utils	[Debug]	          dji_root_task.c:134  recorderWork                    	0       	1       [0m
+[37m   4.256	           utils	[Debug]	          dji_root_task.c:134  flowControllerTask              	0       	1       [0m
+[37m   4.256	           utils	[Debug]	          dji_root_task.c:134  commandTask                     	1       	1       [0m
+[37m   4.262	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.263	          linker	[Debug]	            dji_command.c:1128  <0xddaa>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.263	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xddaa> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.272	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.272	          linker	[Debug]	            dji_command.c:1128  <0xddbc>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.272	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xddbc> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.278	          linker	[Debug]	        dji_protocol_v1.c:309  <0xddda>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   4.279	          linker	[Debug]	            dji_command.c:1128  <0xddda>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   4.279	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xddda> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   4.281	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.282	          linker	[Debug]	            dji_command.c:1128  <0xddcc>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.282	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xddcc> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.292	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.293	          linker	[Debug]	            dji_command.c:1128  <0xdde8>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.293	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdde8> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.302	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.302	          linker	[Debug]	            dji_command.c:1128  <0xddf8>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.302	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xddf8> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.311	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.312	          linker	[Debug]	            dji_command.c:1128  <0xde07>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.312	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xde07> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.322	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.322	          linker	[Debug]	            dji_command.c:1128  <0xde17>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.322	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xde17> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.332	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.332	          linker	[Debug]	            dji_command.c:1128  <0xde2e>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.332	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xde2e> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.338	          linker	[Debug]	        dji_protocol_v1.c:309  <0xde49>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   4.339	          linker	[Debug]	            dji_command.c:1128  <0xde49>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   4.339	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xde49> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   4.342	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.343	          linker	[Debug]	            dji_command.c:1128  <0xde3d>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.343	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xde3d> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.352	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.352	          linker	[Debug]	            dji_command.c:1128  <0xde50>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.352	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xde50> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.361	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.362	          linker	[Debug]	            dji_command.c:1128  <0xde60>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.362	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xde60> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.371	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.372	          linker	[Debug]	            dji_command.c:1128  <0xde75>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.372	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xde75> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.379	          linker	[Debug]	        dji_protocol_v1.c:309  <0xde93>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   4.379	          linker	[Debug]	            dji_command.c:1128  <0xde93>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   4.379	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xde93> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   4.382	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.382	          linker	[Debug]	            dji_command.c:1128  <0xde85>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.382	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xde85> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.391	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.392	          linker	[Debug]	            dji_command.c:1128  <0xde9f>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.392	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xde9f> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.402	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.403	          linker	[Debug]	            dji_command.c:1128  <0xdeaf>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.403	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdeaf> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.412	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.412	          linker	[Debug]	            dji_command.c:1128  <0xdebd>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.412	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdebd> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.421	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.422	          linker	[Debug]	            dji_command.c:1128  <0xdece>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.422	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdece> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.432	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.433	          linker	[Debug]	            dji_command.c:1128  <0xdee5>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.433	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdee5> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.438	          linker	[Debug]	        dji_protocol_v1.c:309  <0xdf01>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   4.439	          linker	[Debug]	            dji_command.c:1128  <0xdf01>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   4.439	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdf01> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   4.441	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.441	          linker	[Debug]	            dji_command.c:1128  <0xdef4>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.441	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdef4> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.443	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0405[0m
+[37m   4.443	          linker	[Debug]	            dji_command.c:1128  <0xdf06>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0405 len:22[0m
+[37m   4.443	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdf06> cmdset: 0x04 cmdid: 0x05[0m
+[37m   4.453	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.453	          linker	[Debug]	            dji_command.c:1128  <0xdf0d>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.453	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdf0d> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.461	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.461	          linker	[Debug]	            dji_command.c:1128  <0xdf1d>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.461	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdf1d> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.472	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.473	          linker	[Debug]	            dji_command.c:1128  <0xdf32>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.473	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdf32> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.478	          linker	[Debug]	        dji_protocol_v1.c:309  <0xdf50>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   4.478	          linker	[Debug]	            dji_command.c:1128  <0xdf50>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   4.478	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdf50> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   4.482	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.482	          linker	[Debug]	            dji_command.c:1128  <0xdf42>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.482	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdf42> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.492	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.492	          linker	[Debug]	            dji_command.c:1128  <0xdf5e>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.492	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdf5e> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.503	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.504	          linker	[Debug]	            dji_command.c:1128  <0xdf6e>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:98[0m
+[37m   4.504	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdf6e> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.512	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.513	          linker	[Debug]	            dji_command.c:1128  <0xdf89>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.513	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdf89> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.522	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.522	          linker	[Debug]	            dji_command.c:1128  <0xdf9a>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.522	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdf9a> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.532	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.532	          linker	[Debug]	            dji_command.c:1128  <0xdfb2>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.532	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdfb2> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.539	          linker	[Debug]	        dji_protocol_v1.c:309  <0xdfce>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   4.539	          linker	[Debug]	            dji_command.c:1128  <0xdfce>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   4.539	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdfce> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   4.542	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.543	          linker	[Debug]	            dji_command.c:1128  <0xdfc2>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.543	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdfc2> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.551	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.552	          linker	[Debug]	            dji_command.c:1128  <0xdfd5>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.552	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdfd5> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.562	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.562	          linker	[Debug]	            dji_command.c:1128  <0xdfe5>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.562	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdfe5> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.571	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.571	          linker	[Debug]	            dji_command.c:1128  <0xdff4>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.571	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xdff4> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.578	          linker	[Debug]	        dji_protocol_v1.c:309  <0xe012>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   4.578	          linker	[Debug]	            dji_command.c:1128  <0xe012>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   4.578	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe012> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   4.582	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.582	          linker	[Debug]	            dji_command.c:1128  <0xe004>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.582	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe004> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.592	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.592	          linker	[Debug]	            dji_command.c:1128  <0xe01e>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.592	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe01e> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.602	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.602	          linker	[Debug]	            dji_command.c:1128  <0xe02e>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.602	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe02e> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.612	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.612	          linker	[Debug]	            dji_command.c:1128  <0xe03d>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.612	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe03d> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.622	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.623	          linker	[Debug]	            dji_command.c:1128  <0xe04e>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.623	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe04e> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.631	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.632	          linker	[Debug]	            dji_command.c:1128  <0xe063>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.632	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe063> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.638	          linker	[Debug]	        dji_protocol_v1.c:309  <0xe07f>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   4.639	          linker	[Debug]	            dji_command.c:1128  <0xe07f>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   4.639	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe07f> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   4.642	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.642	          linker	[Debug]	            dji_command.c:1128  <0xe072>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.642	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe072> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.652	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.652	          linker	[Debug]	            dji_command.c:1128  <0xe086>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.652	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe086> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.661	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.662	          linker	[Debug]	            dji_command.c:1128  <0xe096>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.662	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe096> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.672	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.673	          linker	[Debug]	            dji_command.c:1128  <0xe0a9>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.673	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe0a9> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.678	          linker	[Debug]	        dji_protocol_v1.c:309  <0xe0c8>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   4.678	          linker	[Debug]	            dji_command.c:1128  <0xe0c8>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   4.678	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe0c8> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   4.682	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.683	          linker	[Debug]	            dji_command.c:1128  <0xe0b9>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.683	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe0b9> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.691	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.692	          linker	[Debug]	            dji_command.c:1128  <0xe0d5>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.692	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe0d5> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.702	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.703	          linker	[Debug]	            dji_command.c:1128  <0xe0e5>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.703	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe0e5> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.712	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.712	          linker	[Debug]	            dji_command.c:1128  <0xe0f3>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.712	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe0f3> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.721	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.722	          linker	[Debug]	            dji_command.c:1128  <0xe103>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.722	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe103> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.732	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.733	          linker	[Debug]	            dji_command.c:1128  <0xe119>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.733	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe119> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.738	          linker	[Debug]	        dji_protocol_v1.c:309  <0xe134>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   4.738	          linker	[Debug]	            dji_command.c:1128  <0xe134>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   4.738	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe134> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   4.742	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.742	          linker	[Debug]	            dji_command.c:1128  <0xe128>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.742	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe128> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.751	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.752	          linker	[Debug]	            dji_command.c:1128  <0xe13b>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.752	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe13b> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.762	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.763	          linker	[Debug]	            dji_command.c:1128  <0xe14b>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.763	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe14b> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.772	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.772	          linker	[Debug]	            dji_command.c:1128  <0xe15a>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.772	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe15a> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.778	          linker	[Debug]	        dji_protocol_v1.c:309  <0xe178>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   4.779	          linker	[Debug]	            dji_command.c:1128  <0xe178>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   4.779	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe178> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   4.781	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.782	          linker	[Debug]	            dji_command.c:1128  <0xe16a>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.782	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe16a> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.792	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.792	          linker	[Debug]	            dji_command.c:1128  <0xe184>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.792	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe184> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.802	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.802	          linker	[Debug]	            dji_command.c:1128  <0xe194>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.802	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe194> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.812	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.812	          linker	[Debug]	            dji_command.c:1128  <0xe1a3>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.812	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe1a3> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.822	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.823	          linker	[Debug]	            dji_command.c:1128  <0xe1b4>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.823	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe1b4> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.832	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.833	          linker	[Debug]	            dji_command.c:1128  <0xe1c8>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.833	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe1c8> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.838	          linker	[Debug]	        dji_protocol_v1.c:309  <0xe1e4>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   4.838	          linker	[Debug]	            dji_command.c:1128  <0xe1e4>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   4.838	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe1e4> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   4.842	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.842	          linker	[Debug]	            dji_command.c:1128  <0xe1d7>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.842	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe1d7> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.852	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.852	          linker	[Debug]	            dji_command.c:1128  <0xe1eb>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.852	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe1eb> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.862	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.862	          linker	[Debug]	            dji_command.c:1128  <0xe1fb>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.862	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe1fb> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.871	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.872	          linker	[Debug]	            dji_command.c:1128  <0xe20e>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.872	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe20e> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.878	          linker	[Debug]	        dji_protocol_v1.c:309  <0xe22c>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   4.879	          linker	[Debug]	            dji_command.c:1128  <0xe22c>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   4.879	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe22c> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   4.882	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.883	          linker	[Debug]	            dji_command.c:1128  <0xe21e>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.883	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe21e> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.892	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.893	          linker	[Debug]	            dji_command.c:1128  <0xe239>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.893	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe239> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.901	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.902	          linker	[Debug]	            dji_command.c:1128  <0xe249>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.902	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe249> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.912	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.913	          linker	[Debug]	            dji_command.c:1128  <0xe258>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.913	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe258> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.922	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.922	          linker	[Debug]	            dji_command.c:1128  <0xe268>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.922	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe268> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.932	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.933	          linker	[Debug]	            dji_command.c:1128  <0xe281>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.933	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe281> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.938	          linker	[Debug]	        dji_protocol_v1.c:309  <0xe29c>V1-Recv: 0x0300->0x0A06 0x221B[0m
+[37m   4.938	          linker	[Debug]	            dji_command.c:1128  <0xe29c>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x221B len:9[0m
+[37m   4.938	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe29c> cmdset: 0x22 cmdid: 0x1B[0m
+[37m   4.941	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.942	          linker	[Debug]	            dji_command.c:1128  <0xe290>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.942	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe290> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.943	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0406[0m
+[37m   4.944	          linker	[Debug]	            dji_command.c:1128  <0xe2a2>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0406 len:12[0m
+[37m   4.944	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe2a2> cmdset: 0x04 cmdid: 0x06[0m
+[37m   4.946	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0407[0m
+[37m   4.947	          linker	[Debug]	            dji_command.c:1128  <0xe2a3>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0407 len:1[0m
+[37m   4.947	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe2a3> cmdset: 0x04 cmdid: 0x07[0m
+[37m   4.955	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.955	          linker	[Debug]	            dji_command.c:1128  <0xe2aa>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.955	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe2aa> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.962	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.963	          linker	[Debug]	            dji_command.c:1128  <0xe2ba>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.963	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe2ba> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.972	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.973	          linker	[Debug]	        dji_protocol_v1.c:309  <0xae6>V1-Recv: 0x1D07->0x0A06 0x2105[0m
+[37m   4.973	          linker	[Debug]	            dji_command.c:1128  <0xe2c9>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.973	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe2c9> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.973	          linker	[Debug]	            dji_command.c:1128  <0xae6>Receive msg from linker, 0x1D07(0x00FD)->0x0A06(0x00CA) 0x2105 len:1[0m
+[37m   4.973	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that need ack, <0xae6> cmdset: 0x21 cmdid: 0x05[0m
+[37m   4.978	          linker	[Debug]	        dji_protocol_v1.c:309  <0xe2e7>V1-Recv: 0x0300->0x0A06 0x036C[0m
+[37m   4.978	          linker	[Debug]	            dji_command.c:1128  <0xe2e7>Receive msg from linker, 0x0300(0x0003)->0x0A06(0x00CA) 0x036C len:71[0m
+[37m   4.978	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe2e7> cmdset: 0x03 cmdid: 0x6C[0m
+[37m   4.981	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.982	          linker	[Debug]	            dji_command.c:1128  <0xe2d9>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.982	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe2d9> cmdset: 0x02 cmdid: 0x00[0m
+[37m   4.992	          linker	[Debug]	       dji_protocol_sdk.c:276  SDK-Recv: 0x03->0x0A 0x0200[0m
+[37m   4.993	          linker	[Debug]	            dji_command.c:1128  <0xe2f4>Receive msg from linker, 0x0300(0x0003)->0x0A00(0x000A) 0x0200 len:70[0m
+[37m   4.993	          linker	[Debug]	            dji_command.c:980  received unsupport request cmd that noneed ack, <0xe2f4> cmdset: 0x02 cmdid: 0x00[0m
